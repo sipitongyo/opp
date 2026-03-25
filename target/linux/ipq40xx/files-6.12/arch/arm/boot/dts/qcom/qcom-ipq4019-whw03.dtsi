@@ -8,6 +8,7 @@
 
 / {
 	aliases {
+		ethernet0 = &gmac;
 		led-boot = &led_blue;
 		led-failsafe = &led_red;
 		led-running = &led_blue;
